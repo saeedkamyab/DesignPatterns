@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Creational\FactoryMethod\FactoryMethod.csproj", "{6B363527-1DB2-4207-945B-5FDE4424FB9F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{E30B0289-8E9A-4315-8C86-57C77146C71F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Oriented_Programing", "OOP\Object_Oriented_Programing\Object_Oriented_Programing.csproj", "{CFAB06DE-D503-496D-B064-FE598F0EB5EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,12 +30,17 @@ Global
 		{6B363527-1DB2-4207-945B-5FDE4424FB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B363527-1DB2-4207-945B-5FDE4424FB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B363527-1DB2-4207-945B-5FDE4424FB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAB06DE-D503-496D-B064-FE598F0EB5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAB06DE-D503-496D-B064-FE598F0EB5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAB06DE-D503-496D-B064-FE598F0EB5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAB06DE-D503-496D-B064-FE598F0EB5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6B363527-1DB2-4207-945B-5FDE4424FB9F} = {554C874D-3405-450F-AA83-40F43C0DC534}
+		{CFAB06DE-D503-496D-B064-FE598F0EB5EA} = {E30B0289-8E9A-4315-8C86-57C77146C71F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E144D27D-3DD4-4E30-B25E-3C5308A6F756}

@@ -1,0 +1,49 @@
+﻿Note:
+
+Arrows with empty triangle heads indicate inheritance and always
+go from a subclass to superclass. ∆ (from down to up)
+
+Arrows with empty triangle heads and dashed lines indicate that 
+classes implement an interface ----∆ (from down to up)
+
+
+simple arrows indicate that one class depends on the other  ->
+(from up to down) for example a class to an interface
+
+//------------------------------------------------------------------
+
+Object-oriented programming is based on four pillars, concepts:
+
+Abstraction:
+
+Abstraction is a model of a real-world object or phenomenon,
+limited to a specific context, which represents all details 
+relevant to this context with high accuracy and omits all 
+the rest.
+
+
+Encapsulation:
+
+Encapsulation is the ability of an object to hide parts of its 
+state and behaviors from other objects,exposing only a limited 
+interface to the rest of program. when you start  a car you do 
+not need to know what is happening under the hood.
+To encapsulate something  means  to make it private.
+
+Inheritance:
+
+Inheritance is the ability to build new classes on top of existing
+ones. The main benefit of inheritance is code reuse. If you want 
+to create a class that’s slightly different from an existing one, 
+there’s no need to duplicate code
+
+Polymorphism
+
+Let’s look at some animal examples. Most Animals can make sounds. 
+We can anticipate that all subclasses will need to override the
+base makeSound method so each subclass can emit the correct sound;
+therefore we can declare it abstract right away. This lets us omit 
+any default implementation of the method in the superclass, but 
+force all subclasses to come up with their own.
+
+
