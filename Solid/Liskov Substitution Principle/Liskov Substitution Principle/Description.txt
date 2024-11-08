@@ -1,0 +1,16 @@
+﻿Liskov Substitution Principle:
+
+When extending a class, remember that you should be able to pass objects of the subclass
+in place of objects of the parent class without breaking the client code.
+This means that the subclass should remain compatible with the behavior of the superclass. When 
+overriding a method, extend the base behavior rather than replacing it with something else entirely.
+The substitution principle is a set of checks that help predict whether a subclass remains compatible with 
+the code that was able to work with objects of the superclass. This concept is critical when developing libraries 
+and frameworks because your classes are going to be used by other people whose code you can’t directly access and change.
+
+
+
+Liskov Substitution Principle (LSP) یکی از پنج اصل SOLID در طراحی شی‌گرا است. این اصل بیان می‌کند که در یک برنامه، اگر کلاسی از یک کلاس والد ارث‌بری می‌کند، باید بتواند به جای آن کلاس والد استفاده شود، بدون این که تغییری در رفتار صحیح برنامه ایجاد شود. به عبارت دیگر، یک زیرکلاس نباید رفتار کلاس والد را نقض یا تغییر دهد.
+تعریف اصل:
+
+اصل جایگزینی لیسکوف می‌گوید: "هر جا از یک شیء کلاس والد استفاده شده، باید بتوان از شیء کلاس فرزند نیز به‌جای آن استفاده کرد، بدون اینکه نیاز به تغییرات دیگری در کد باشد."
