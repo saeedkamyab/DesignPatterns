@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Example2\without\WithoutLsp.cs" />
+    <Compile Include="Example2\with\WithLsp.cs" />
     <Compile Include="example_1\without\without_Lsp.cs" />
     <Compile Include="example_1\with\With_Lsp.cs" />
     <Compile Include="Program.cs" />
