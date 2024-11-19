@@ -1,0 +1,10 @@
+﻿Interface Segregation Principle:
+
+Clients shouldn’t be forced to depend on methods they
+do not use. Try to make your interfaces narrow enough that client classes
+don’t have to implement behaviors they don’t need.
+According to the interface segregation principle, you should
+break down “fat” interfaces into more granular and specific
+ones. Clients should implement only those methods that they
+really need. Otherwise, a change to a “fat” interface would
+break even clients that don’t use the changed methods.
