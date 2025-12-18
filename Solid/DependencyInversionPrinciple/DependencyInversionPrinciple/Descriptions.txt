@@ -13,4 +13,3 @@ database, etc.
 • High-level classes contain complex business logic that directs
 low-level classes to do something.
 
-صفحه 66
