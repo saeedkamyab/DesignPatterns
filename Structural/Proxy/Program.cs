@@ -55,7 +55,7 @@ public class Program
 
     static void Main(string[] args)
     {
-        IProductService _service;
+        IProductService _service;//it must be inject not like this
       
         var real = new ProductService();
         _service = new ProductServiceProxy(real);
